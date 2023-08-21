@@ -77,7 +77,3 @@ footer .social>a:hover{
     opacity: 0.9;
     color: var(--secondary-color);
 }
-
-.fa-li{
-    color: crimson;
-}
