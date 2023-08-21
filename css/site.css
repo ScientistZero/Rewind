@@ -1,6 +1,6 @@
 :root {
     --primary-color: #1d5888;
-    --secondary-color: #ff993b;
+    --secondary-color: crimson;
     --dark-color: #292929;
     --white-color: #e7e7e7;
 
@@ -76,4 +76,8 @@ footer .social>a{
 footer .social>a:hover{
     opacity: 0.9;
     color: var(--secondary-color);
+}
+
+.fa-li{
+    color: crimson;
 }
