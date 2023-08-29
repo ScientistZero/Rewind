@@ -1,4 +1,17 @@
-//Call Hello World
-function HelloWorld(){
-    alert(hello world);
+//Get string from page
+//Controller function
+function getValue(){
+
+}
+
+//Reverse the string
+//Logic function
+function reverseString(){
+
+}
+
+//Display the reversed string to the user
+//Display function
+function displayString(){
+
 }
