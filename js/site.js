@@ -1,7 +1,7 @@
 //Get string from page
 //Controller function
 function getValue(){
-
+   let userString = document.getElementById("userString").value;
 }
 
 //Reverse the string
@@ -11,7 +11,7 @@ function reverseString(){
 }
 
 //Display the reversed string to the user
-//Display function
+//View function
 function displayString(){
 
 }
