@@ -16,14 +16,10 @@ function getValue(){
 function reverseString(userString){
 
     let reverseString = [];
-
-    //let nome = Bobby
-    //name[0] = "B";
-    //namr[4] = "y";
-    // last position in an array = name.length - 1
     
     //reverse a string using a for loop
     for (let index = userString.length - 1; index >= 0; index--) {
+        
         reverseString += userString[index];
         
     }
