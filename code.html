@@ -54,7 +54,7 @@
     <!--Main Section-->
     <main class="flex-shrink-0">
         <div class="container py-5 px-5">
-            <h2 class="border-1 border-bottom border-dark">The Code for APP NAME</h2>
+            <h2 class="border-1 border-bottom border-dark">The Code for Rewind</h2>
 <div class="row row-cols-1 row-cols-lg-2">
     <div class="col-lg-8">
 <pre class="line-numbers"><code class="language-javascript">
@@ -99,10 +99,19 @@
 </pre>
     </div>
     <div class="col-lg-4">
-<p>The Code is structured in one function.</p>
-<h5>Code copied goes here.</h5>
-<p>Hello World is a function that displays an alert with a message of "Hello World".</p>
-    </div>
+        <p>The Code is structured in three functions to seperate the controller, the logic and the display.</p>
+        <h4>Functions</h4>
+        <br>
+        <h5>getValues()</h5>
+        <p>getValues begins by checking that an alert is set to invisible. Utilizing getElementById, getValue pulls the user input from the page and stores it in the userString variable.
+             The userString value is passed to the reverseString function. The function reverseString returns an array with the reversed string which is passed to the displayString function to be displayed to the user.</p>
+             <br>
+        <h5>greverseString()</h5>
+        <p>reverseString takes the variable revString, created in the getValues function and uses it to hold an array. A for loop is used to reverse the string stored in userString and returns the reversed string to the getValues function.</p>
+        <br>
+        <h5>displayString()</h5>
+        <p>displayString removes the invisible designation from the alert. A template literal is used to display the reversed string in the alert box to the user.</p>
+        </div>
 </div>
         </div>
     </main>
